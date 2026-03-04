@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Balajiinfotechs – Innovative IT Consulting & Digital Transformation Solutions. Experts in cloud, AI/ML, DevOps, web development, and enterprise IT." />
+  <meta name="keywords" content="IT consulting, cloud solutions, AI, machine learning, DevOps, web development, digital transformation, Balajiinfotechs" />
+  <meta name="author" content="Balajiinfotechs" />
+  <meta property="og:title" content="Balajiinfotechs – IT Consulting & Digital Transformation" />
+  <meta property="og:description" content="Scalable, secure, and innovative technology solutions for modern enterprises." />
+  <meta property="og:type" content="website" />
+  <title>Balajiinfotechs | IT Consulting & Digital Transformation</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ CURSOR ═══════════════ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-mark">B</span>
+        <span class="logo-text">alajiinfotechs</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#why" class="nav-link">Why Us</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="hero-noise"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        <span>Trusted IT Partner Since 2015</span>
+      </div>
+      <h1 class="hero-title reveal">
+        <span class="line">Innovative IT</span>
+        <span class="line gradient-text">Consulting &amp;</span>
+        <span class="line">Digital Transformation</span>
+      </h1>
+      <p class="hero-sub reveal">
+        We architect scalable, secure, and future-ready technology solutions<br />
+        that accelerate growth and redefine your digital presence.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#contact" class="btn btn-primary">
+          <span>Get Consultation</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#services" class="btn btn-ghost">
+          <span>Our Services</span>
+        </a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat"><span class="stat-num" data-target="150">0</span><span>+</span><p>Projects Delivered</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="50">0</span><span>+</span><p>Happy Clients</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="8">0</span><span>+</span><p>Years Experience</p></div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="about-card-stack">
+            <div class="acard acard-1">
+              <div class="acard-icon">☁️</div>
+              <span>Cloud Architecture</span>
+            </div>
+            <div class="acard acard-2">
+              <div class="acard-icon">🤖</div>
+              <span>AI / ML Solutions</span>
+            </div>
+            <div class="acard acard-3">
+              <div class="acard-icon">⚙️</div>
+              <span>DevOps Automation</span>
+            </div>
+            <div class="about-orb"></div>
+          </div>
+        </div>
+        <div class="about-text reveal-right">
+          <p class="section-label">About Balajiinfotechs</p>
+          <h2 class="section-title">Where Strategy Meets <span class="gradient-text">Technology</span></h2>
+          <p class="body-text">
+            Balajiinfotechs is a forward-thinking IT consultancy firm built for the demands of the modern enterprise. We combine deep technical expertise with strategic clarity to help organizations navigate complex digital challenges.
+          </p>
+          <p class="body-text">
+            Specializing in software development, cloud infrastructure, data analytics, artificial intelligence, DevOps pipelines, and enterprise IT consulting — we deliver end-to-end solutions that are scalable, secure, and built to last.
+          </p>
+          <div class="about-pills">
+            <span class="pill">Software Development</span>
+            <span class="pill">Cloud Solutions</span>
+            <span class="pill">Data Analytics</span>
+            <span class="pill">AI / ML</span>
+            <span class="pill">DevOps</span>
+            <span class="pill">Enterprise IT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SERVICES ═══════════════ -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">What We Do</p>
+        <h2 class="section-title">Our <span class="gradient-text">Services</span></h2>
+        <p class="section-sub">Comprehensive technology solutions engineered for performance and scale.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal" style="--delay:0s">
+          <div class="service-icon-wrap">
+            <svg class="service-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="8" width="40" height="28" rx="4" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M16 44h16M24 36v8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M15 22l5 5 13-10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Web &amp; App Development</h3>
+          <p>Crafting high-performance web and mobile applications with modern frameworks, clean architecture, and intuitive UX design.</p>
+          <div class="service-tags"><span>React</span><span>Node.js</span><span>Flutter</span></div>
+          <div class="service-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal" style="--delay:.07s">
+          <div class="service-icon-wrap">
+            <svg class="service-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 6C14.06 6 6 14.06 6 24s8.06 18 18 18 18-8.06 18-18S33.94 6 24 6z" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M6 24h36M24 6c-4.97 6.6-7.8 13.2-7.8 18s2.83 11.4 7.8 18M24 6c4.97 6.6 7.8 13.2 7.8 18s-2.83 11.4-7.8 18" stroke="currentColor" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <h3>Cloud Consulting</h3>
+          <p>Strategic cloud migration, architecture design, and managed services across AWS, Azure, and GCP ecosystems.</p>
+          <div class="service-tags"><span>AWS</span><span>Azure</span><span>GCP</span></div>
+          <div class="service-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal" style="--delay:.14s">
+          <div class="service-icon-wrap">
+            <svg class="service-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="28" width="8" height="16" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <rect x="20" y="20" width="8" height="24" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <rect x="36" y="10" width="8" height="34" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M8 22l10-8 8 6 10-14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Data Analytics &amp; BI</h3>
+          <p>Transform raw data into actionable intelligence with custom dashboards, predictive models, and real-time reporting pipelines.</p>
+          <div class="service-tags"><span>Power BI</span><span>Tableau</span><span>Python</span></div>
+          <div class="service-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal" style="--delay:.21s">
+          <div class="service-icon-wrap">
+            <svg class="service-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M24 4v6M24 38v6M4 24h6M38 24h6M8.69 8.69l4.24 4.24M35.07 35.07l4.24 4.24M8.69 39.31l4.24-4.24M35.07 12.93l4.24-4.24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>AI &amp; Machine Learning</h3>
+          <p>End-to-end AI solutions — from model development and training to deployment and monitoring — powering smarter decisions.</p>
+          <div class="service-tags"><span>TensorFlow</span><span>PyTorch</span><span>OpenAI</span></div>
+          <div class="service-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal" style="--delay:.28s">
+          <div class="service-icon-wrap">
+            <svg class="service-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="24" r="6" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="36" cy="12" r="6" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="36" cy="36" r="6" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M18 24h6l6-9M18 24h6l6 9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>DevOps &amp; Automation</h3>
+          <p>Streamline your delivery pipeline with CI/CD automation, infrastructure as code, containerization, and monitoring.</p>
+          <div class="service-tags"><span>Docker</span><span>Kubernetes</span><span>Jenkins</span></div>
+          <div class="service-arrow">→</div>
+        </div>
+
+        <div class="service-card reveal" style="--delay:.35s">
+          <div class="service-icon-wrap">
+            <svg class="service-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="10" width="40" height="28" rx="4" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M12 18h8M12 24h6M28 18a4 4 0 110 8 4 4 0 010-8zM34 30l4 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>IT Infrastructure &amp; Support</h3>
+          <p>Proactive infrastructure management, 24/7 support, network security, and enterprise-grade IT operations support.</p>
+          <div class="service-tags"><span>Network</span><span>Security</span><span>24/7 Support</span></div>
+          <div class="service-arrow">→</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ WHY US ═══════════════ -->
+  <section class="why section" id="why">
+    <div class="why-bg-orb why-orb-1"></div>
+    <div class="why-bg-orb why-orb-2"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Our Edge</p>
+        <h2 class="section-title">Why Choose <span class="gradient-text">Us</span></h2>
+        <p class="section-sub">Built for trust. Engineered for excellence. Delivered with care.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal" style="--delay:0s">
+          <div class="why-num">01</div>
+          <div class="why-icon">🎯</div>
+          <h3>Experienced Professionals</h3>
+          <p>Our team brings decades of combined expertise across enterprise projects, startups, and global technology deployments.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:.08s">
+          <div class="why-num">02</div>
+          <div class="why-icon">📈</div>
+          <h3>Scalable Solutions</h3>
+          <p>Every solution we build is architected to grow with your business — from MVP to enterprise scale without painful rewrites.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:.16s">
+          <div class="why-num">03</div>
+          <div class="why-icon">🤝</div>
+          <h3>Client-Centric Approach</h3>
+          <p>We embed ourselves in your team, understand your goals deeply, and deliver solutions aligned with your business outcomes.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:.24s">
+          <div class="why-num">04</div>
+          <div class="why-icon">🔗</div>
+          <h3>End-to-End IT Services</h3>
+          <p>From strategy to deployment and beyond — we handle the full technology lifecycle so you can focus on your core business.</p>
+        </div>
+        <div class="why-card reveal" style="--delay:.32s">
+          <div class="why-num">05</div>
+          <div class="why-icon">⚡</div>
+          <h3>24/7 Dedicated Support</h3>
+          <p>Round-the-clock monitoring, proactive alerting, and rapid incident response keeps your systems running at full speed.</p>
+        </div>
+        <div class="why-cta-card reveal" style="--delay:.4s">
+          <h3>Ready to Transform?</h3>
+          <p>Let's discuss how we can accelerate your digital journey.</p>
+          <a href="#contact" class="btn btn-primary">Start a Conversation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <p class="section-label">Get In Touch</p>
+          <h2 class="section-title">Let's Build <span class="gradient-text">Something Great</span></h2>
+          <p class="body-text">Tell us about your project. We'll get back to you within 24 hours with a tailored consultation plan.</p>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/deepak-mandloi-22a561250/" target="_blank" rel="noopener" class="contact-link linkedin-link">
+              <svg class="contact-link-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              <div>
+                <span class="link-label">LinkedIn</span>
+                <span class="link-value">Deepak Mandloi</span>
+              </div>
+            </a>
+            <div class="contact-link">
+              <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.0 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+              <div>
+                <span class="link-label">Phone</span>
+                <span class="link-value">+91 98765 43210</span>
+              </div>
+            </div>
+            <div class="contact-link">
+              <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <div>
+                <span class="link-label">Email</span>
+                <span class="link-value">info@balajiinfotechs.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal-right">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@company.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Consultation" />
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interest</label>
+              <select id="service" name="service">
+                <option value="" disabled selected>Select a service</option>
+                <option>Web &amp; App Development</option>
+                <option>Cloud Consulting</option>
+                <option>Data Analytics &amp; BI</option>
+                <option>AI &amp; Machine Learning</option>
+                <option>DevOps &amp; Automation</option>
+                <option>IT Infrastructure &amp; Support</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Describe your project or challenge..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <span>Send Message</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M14 8H2M10 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="form-status" id="formStatus"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <span class="logo-mark">B</span>
+            <span class="logo-text">alajiinfotechs</span>
+          </a>
+          <p>Innovative IT Consulting &amp;<br />Digital Transformation Solutions</p>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why">Why Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Web Development</a></li>
+            <li><a href="#services">Cloud Solutions</a></li>
+            <li><a href="#services">AI &amp; ML</a></li>
+            <li><a href="#services">DevOps</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Connect</h4>
+          <a href="https://www.linkedin.com/in/deepak-mandloi-22a561250/" target="_blank" rel="noopener" class="social-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 Balajiinfotechs. All rights reserved.</p>
+        <p>Crafted with precision &amp; passion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
